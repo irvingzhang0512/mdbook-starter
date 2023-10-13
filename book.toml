@@ -1,0 +1,23 @@
+[book]
+authors = ["zhangyiyang"]
+description = "MDBook template project"
+language = "zh"
+multilingual = false
+src = "src"
+title = "MDBook Starter"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[preprocessor.toc]
+command = "mdbook-toc"
+renderer = ["html"]
+
+[output]
+
+[output.html]
+additional-js = ["assets/mermaid.min.js", "assets/mermaid-init.js", "assets/pagetoc-sidebar.js", "assets/fzf.umd.js", "assets/elasticlunr.js"]
+additional-css = ["assets/pagetoc-style.css"]
+mathjax-support = true
