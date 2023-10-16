@@ -13,7 +13,8 @@ This repository provides a template project for mdbook.
 ## Bugs
 
 + [ ] There is no content in the exported PDFS
-+ [ ] 导航栏一直展示，无法隐藏，导致左侧边栏的第一篇blog被挡住
++ [x] 导航栏一直展示，无法隐藏，导致左侧边栏的第一篇blog被挡住
+    + BUG 的出现原因在 index.hbs 版本不同，需要使用 mdbook 中最新版的 index.hbs 并在其中添加 pagetoc 相关代码。
 
 ## Tutorial
 
